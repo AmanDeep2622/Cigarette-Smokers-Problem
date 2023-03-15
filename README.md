@@ -4,9 +4,9 @@
 
 Cigarette Smokers Problem is a concurrency problem.
 The problem is:
-Assume a cigarette requires three ingredients to make and smoke by the smokers. The ingredients include- tabacco, matches and paper.
-There are 3 smokers around a table, each of them have a infinite supply of one of the three ingredients, i.e. one smoker has an infinite supply of tabacco, another smoker has matches and the last one has paper. 
-There's also a non-smoker Agent who gives supply to the smokers and enables them by selecting and giving any two items from the table,using them smokers make a cigarette, which they smoke for a while and they ask for more.Once the smoker finished smoking the agant again puts two random items on the table and this process continues forever
+Assume a cigarette requires three ingredients to make and smoke by the `Smokers`. The ingredients include- `tabacco, matches and paper`.
+There are `3 `smokers around a table, each of them have a `infinite supply`of one of the `three ingredients`, i.e. one smoker has an infinite supply of tabacco, another smoker has matches and the last one has paper. 
+There's also a non-smoker `Agent` who gives supply to the smokers and enables them by selecting and giving any two items from the table,using them smokers make a cigarette, which they smoke for a while and they ask for more.Once the smoker finished smoking the agant again puts two random items on the table and this process continues forever.
 
 
  - - - -
@@ -83,6 +83,6 @@ The above code is an example for Agent, After Selecting an item randomly the age
  - - - -
  
  
-In the code we can change the number of smokers n , and the code will run till all smokers smoked n times. By Removing a line in the code the code will run for infinite times.
+In the code we can change the number of smokers `n` , and the code will run till all smokers smoked n times. By `Removing 2 segments ` mentioned in the code the code will run for `infinite times`.
 I let that Smoker have to smoke atlease n times, after that, That particular smoker will not smoke again. 
-Thus This is the solution for Cigarette Smoker Problem Starvation free and Deadlock Free.
+Thus This is the solution for `Cigarette Smoker Problem Starvation free and Deadlock Free`.
